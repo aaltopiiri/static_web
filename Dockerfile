@@ -8,4 +8,3 @@ RUN apt-get -yqq update \
     && echo 'Hi, I am in your container' > /var/www/html/index.html
 EXPOSE 80
 ENTRYPOINT ["/usr/sbin/nginx"]
-CMD [ "-h" ]
